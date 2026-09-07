@@ -9,7 +9,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel(
-    "gemini-2.5-flash",
+    "gemini-3.6-flash",
     system_instruction=(
         "Eres un experto en seguridad de software. Analiza el código que te "
         "entreguen en busca de vulnerabilidades. Para cada una: explica por qué "
